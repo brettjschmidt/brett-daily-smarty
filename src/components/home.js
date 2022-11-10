@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Logo from './logo';
-import SearchBar from './searchbar';
-import RecentPosts from './recent-posts';
+import Logo from "./logo";
+import SearchBar from "./searchBar";
+import RecentPosts from "./recentPosts";
 
 export default class Home extends Component {
   render() {
     return (
       <div>
         <div>
-          <Logo/>
-          <SearchBar/>
-          <RecentPosts/>
+          <Logo />
+          <SearchBar />
+          <RecentPosts />
         </div>
       </div>
     );
